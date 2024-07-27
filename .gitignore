@@ -1,5 +1,16 @@
-.ipynb_checkpoints/
+.ipynb_checkpoints
 .DS_Store
 niafaker/data
 *__pycache__
 .idea
+__pycache__/
+*.py[cod]
+*$py.class
+.vscode/
+.spyderproject
+.spyproject
+.env
+.python-version
+build
+dist
+niafaker.egg-info
