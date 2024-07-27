@@ -17,5 +17,6 @@ def generate_city(country=None):
         country_data = generate_item(data)
         return generate_item(country_data['cities'])
 
+# Pick an item (city) at random
 def generate_item(items):
     return random.choice(items)

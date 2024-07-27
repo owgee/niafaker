@@ -32,5 +32,6 @@ def generate_email():
 def generate_phone_number():
     return generate_item(data['phone_numbers'])
 
+# Pick an item (name) at random
 def generate_item(items):
     return random.choice(items)

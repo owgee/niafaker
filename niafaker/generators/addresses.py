@@ -21,5 +21,6 @@ def generate_address(country=None, city=None):
         city = generate_item(list(data[country].keys()))
         return generate_item(data[country][city])
 
+# Pick an item (address) at random
 def generate_item(items):
     return random.choice(items)
