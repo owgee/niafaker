@@ -86,8 +86,15 @@ import niafaker
 country = niafaker.generate_country()
 print(country)
 ```
+### Running Tests
+To run the tests for NiaFaker, use the following command:
 
+```bash python -m unittest discover tests ```
+#### - Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+#### - License
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 ## Author
-
 
 Owden Godson (OG) - [africahomeforever@gmail.com](mailto:africahomeforever@gmail.com)
