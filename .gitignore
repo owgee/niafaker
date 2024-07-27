@@ -1,2 +1,5 @@
 .ipynb_checkpoints/
 .DS_Store
+niafaker/data
+*__pycache__
+.idea
