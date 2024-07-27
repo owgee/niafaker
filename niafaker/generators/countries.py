@@ -9,13 +9,8 @@ def load_data(filename):
 
 data = load_data('countries.json')['countries']
 
-def generate_city(country=None):
-    if country and country in [c['name'] for c in data]:
-        country_data = next(c for c in data if c['name'] == country)
-        return generate_item(country_data['cities'])
-    else:
-        country_data = generate_item(data)
-        return generate_item(country_data['cities'])
+def generate_country():
+    return generate_item([country['name'] for country in data])
 
 def generate_item(items):
     return random.choice(items)

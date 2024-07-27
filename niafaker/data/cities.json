@@ -186,35 +186,35 @@
     },
     {
       "name": "South Sudan",
-      "cities": ["Juba", "Malakal", "Wau", "Aweil", "Yei", "Rumbek", "Torit", "Bor", "Maridi", "Kapoeta"]
+      "cities": ["Juba", "Malakal", "Wau", "Aweil", "Rumbek", "Yei", "Bor", "Maridi", "Torit", "Nimule"]
     },
     {
       "name": "Sudan",
-      "cities": ["Khartoum", "Omdurman", "Nyala", "Port Sudan", "Kassala", "El Obeid", "Al-Fashir", "Kosti", "Wad Madani", "El Geneina"]
+      "cities": ["Khartoum", "Omdurman", "Port Sudan", "Nyala", "Kassala", "El Obeid", "El Geneina", "El Fasher", "Kosti", "Wad Madani"]
     },
     {
       "name": "Tanzania",
-      "cities": ["Dodoma", "Dar es Salaam", "Mwanza", "Arusha", "Mbeya", "Morogoro", "Tanga", "Kahama", "Tabora", "Zanzibar City"]
+      "cities": ["Dar es Salaam", "Dodoma", "Arusha", "Mwanza", "Mbeya", "Morogoro", "Tanga", "Tabora", "Kigoma", "Moshi"]
     },
     {
       "name": "Togo",
-      "cities": ["Lomé", "Sokodé", "Kara", "Atakpamé", "Kpalimé", "Bassar", "Tsévié", "Aného", "Sansanné-Mango", "Dapaong"]
+      "cities": ["Lomé", "Sokodé", "Kara", "Atakpamé", "Dapaong", "Tsevie", "Aného", "Kpalimé", "Bassar", "Niamtougou"]
     },
     {
       "name": "Tunisia",
-      "cities": ["Tunis", "Sfax", "Sousse", "Ettadhamen", "Kairouan", "Gabès", "Bizerte", "Ariana", "Gafsa", "El Kef"]
+      "cities": ["Tunis", "Sfax", "Sousse", "Kairouan", "Gabès", "Bizerte", "Ariana", "Gafsa", "La Marsa", "Monastir"]
     },
     {
       "name": "Uganda",
-      "cities": ["Kampala", "Nansana", "Kira", "Mbarara", "Gulu", "Lira", "Jinja", "Bwizibwera", "Mbale", "Mukono"]
+      "cities": ["Kampala", "Entebbe", "Gulu", "Lira", "Mbarara", "Jinja", "Mbale", "Mukono", "Kasese", "Masaka"]
     },
     {
       "name": "Zambia",
-      "cities": ["Lusaka", "Kitwe", "Ndola", "Kabwe", "Chingola", "Mufulira", "Livingstone", "Luanshya", "Kasama", "Chipata"]
+      "cities": ["Lusaka", "Kitwe", "Ndola", "Livingstone", "Kabwe", "Chingola", "Mufulira", "Luanshya", "Kasama", "Chipata"]
     },
     {
       "name": "Zimbabwe",
-      "cities": ["Harare", "Bulawayo", "Chitungwiza", "Mutare", "Gweru", "Kwekwe", "Kadoma", "Masvingo", "Chinhoyi", "Marondera"]
+      "cities": ["Harare", "Bulawayo", "Chitungwiza", "Mutare", "Gweru", "Kwekwe", "Kadoma", "Masvingo", "Marondera", "Chinhoyi"]
     }
   ]
 }

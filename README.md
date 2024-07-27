@@ -1,89 +1,141 @@
 
 # NiaFaker
 
-NiaFaker is a Python package that generates fake data localized for African regions. It provides realistic names, cities, and addresses from various African countries, making it useful for testing and development purposes.
+NiaFaker is a Python package that generates fake data localized for African contexts. It can generate names, emails, phone numbers, addresses, cities, and countries. 
 
 ## Installation
 
-To install NiaFaker, clone the repository and install it using pip:
+To install NiaFaker, use pip:
 
 \`\`\`bash
-git clone https://github.com/owgee/niafaker.git
-cd niafaker
 pip install .
 \`\`\`
 
 ## Usage
 
-Here are some examples of how to use NiaFaker in your Python projects:
+Here's how to use NiaFaker to generate various types of fake data:
 
 ### Generate a Random Name
 
 \`\`\`python
-from niafaker import generate_name
+import niafaker
 
-# Generate a random name
-print(generate_name())
-
-# Generate a random male name
-print(generate_name('male'))
-
-# Generate a random female name
-print(generate_name('female'))
+name = niafaker.generate_name()
+print(name)
 \`\`\`
 
-### Generate a Random Last Name
+### Generate a Random Email
 
 \`\`\`python
-from niafaker import generate_last_name
+import niafaker
 
-# Generate a random last name
-print(generate_last_name())
+email = niafaker.generate_email()
+print(email)
 \`\`\`
 
-### Generate a Random City
+### Generate a Random Phone Number
 
 \`\`\`python
-from niafaker import generate_city
+import niafaker
 
-# Generate a random city
-print(generate_city())
-
-# Generate a random city in Nigeria
-print(generate_city('Nigeria'))
+phone_number = niafaker.generate_phone_number()
+print(phone_number)
 \`\`\`
 
 ### Generate a Random Address
 
 \`\`\`python
-from niafaker import generate_address
+import niafaker
 
-# Generate a random address
-print(generate_address())
+address = niafaker.generate_address()
+print(address)
+\`\`\`
 
-# Generate a random address in Nigeria
-print(generate_address('Nigeria'))
+### Generate a Random Address for a Specific Country and City
 
-# Generate a random address in Lagos, Nigeria
-print(generate_address('Nigeria', 'Lagos'))
+\`\`\`python
+import niafaker
+
+address = niafaker.generate_address('Kenya', 'Nairobi')
+print(address)
+\`\`\`
+
+### Generate a Random City
+
+\`\`\`python
+import niafaker
+
+city = niafaker.generate_city()
+print(city)
+\`\`\`
+
+### Generate a Random City for a Specific Country
+
+\`\`\`python
+import niafaker
+
+city = niafaker.generate_city('Nigeria')
+print(city)
+\`\`\`
+
+### Generate a Random Country
+
+\`\`\`python
+import niafaker
+
+country = niafaker.generate_country()
+print(country)
 \`\`\`
 
 ## Running Tests
 
-To run the tests for NiaFaker, use the following command:
+To run the tests, use the following command:
 
 \`\`\`bash
-python -m unittest discover tests
+python -m unittest discover -s tests
 \`\`\`
 
-## Contributing
+## Example Data
 
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+Ensure your JSON data files (`addresses.json` and `countries.json`) have the required data. For example:
 
-## License
+### `countries.json`
 
-This project is licensed under the MIT License. See the \`LICENSE\` file for details.
+\`\`\`json
+{
+  "countries": [
+    {
+      "name": "Tanzania",
+      "cities": ["Arusha", "Dar es Salaam", "Tanga"]
+    },
+    {
+      "name": "Nigeria",
+      "cities": ["Lagos", "Abuja", "Kano"]
+    }
+  ]
+}
+\`\`\`
+
+### `addresses.json`
+
+\`\`\`json
+{
+  "addresses": {
+    "Kenya": {
+      "Nairobi": ["123 Nairobi St, Nairobi", "456 Central Ave, Nairobi"],
+      "Mombasa": ["789 Beach Rd, Mombasa"],
+      "Kisumu": ["101 Lake View, Kisumu"]
+    },
+    "Nigeria": {
+      "Lagos": ["123 Lagos Blvd, Lagos", "456 Market St, Lagos"],
+      "Abuja": ["789 Capital Rd, Abuja"],
+      "Kano": ["101 Desert Dr, Kano"]
+    }
+  }
+}
+\`\`\`
 
 ## Author
 
-OG - [africahomeforever@gmail.com](mailto:africahomeforever@gmail.com)
+
+Owden Godson (OG) - [africahomeforever@gmail.com](mailto:africahomeforever@gmail.com)
