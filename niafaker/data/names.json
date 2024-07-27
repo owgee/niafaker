@@ -1,0 +1,38 @@
+{
+  "male_first_names": [
+    "Kwame", "Abebe", "Musa", "Kofi", "Amadou", "Chike", "Tunde", "Bongani", "Femi", "Ibrahim",
+    "Kelechi", "Juma", "Ngugi", "Sekou", "Thabo", "Dlamini", "Adamu", "Bakari", "Enoch", "Hassan",
+    "Mandela", "Obi", "Ezekiel", "Jabari", "Kato", "Aziz", "Kamau", "Diallo", "Nuru", "Ade",
+    "Kofi", "Kwaku", "Chidi", "Omar", "Ayo", "Ismail", "Kwesi", "Zubair", "Nnamdi", "Faraji",
+    "Tariq", "Malik", "Ndidi", "Habib", "Chuka", "Samson", "Onyeka", "Olu", "Chukwuemeka", "Abdul",
+    "Osman", "Kweku", "Nairobi", "Kenzo", "Kaleb", "Lemuel", "Yemi", "Jelani", "Masamba", "Zane",
+    "Chidike", "Hassan", "Zain", "Bashir", "Ahmed", "Dumi", "Kwasi", "Dada", "Chinua", "Afolabi",
+    "Aminu", "Okoro", "Ifedayo", "Emeka", "Adewale", "Akachi", "Tanaka", "Simba", "Tumelo", "Ayotunde",
+    "Kunle", "Chibueze", "Baba", "Elimu", "Eze", "Osei", "Ofa", "Odion", "Shaka", "Farouk",
+    "Ayo", "Kwasi", "Bello", "Gimba", "Kasimu", "Leko", "Abeni", "Chinonso", "Anwar", "Obinna"
+  ],
+  "female_first_names": [
+    "Amina", "Nia", "Chinwe", "Ama", "Fatou", "Zainab", "Yaa", "Akosua", "Asha", "Leila",
+    "Imani", "Lerato", "Njeri", "Sade", "Abena", "Ayodele", "Chimamanda", "Halima", "Jamila", "Ngozi",
+    "Tandiwe", "Ifunanya", "Amara", "Nyasha", "Kehinde", "Bintu", "Yetunde", "Chiamaka", "Adanna", "Naomi",
+    "Aisha", "Folake", "Olamide", "Folasade", "Ayo", "Makena", "Zahara", "Nneka", "Morenike", "Funke",
+    "Efua", "Nokuthula", "Amaka", "Bolanle", "Chidimma", "Eniola", "Nana", "Oluwaseun", "Oluchi", "Yemisi",
+    "Onyinye", "Adaora", "Ifeoma", "Chizoba", "Ngozi", "Ebi", "Titi", "Ayo", "Olayinka", "Ireti",
+    "Ajoke", "Isioma", "Adesuwa", "Chinaza", "Yetunde", "Anuli", "Temidayo", "Chigozie", "Oyin", "Nkiruka",
+    "Chinyere", "Mojisola", "Ogechi", "Modupe", "Olamide", "Ndidi", "Sola", "Uzoma", "Bolanle", "Nkeiru",
+    "Uzoamaka", "Temilade", "Amara", "Bisi", "Nnenna", "Chidinma", "Yemisi", "Titilayo", "Adaeze", "Ijeoma",
+    "Chizara", "Enitan", "Ihuoma", "Chioma", "Obiageli", "Ifedayo", "Onyeka", "Uchenna", "Akudo", "Oluremi"
+  ],
+  "last_names": [
+    "Osei", "Kagiso", "Mwangi", "Diallo", "Okeke", "Abdoulaye", "Mensah", "Oluoch", "Mugabe", "Ndlovu",
+    "Onyango", "Kone", "Achebe", "Fofana", "Banda", "Chilufya", "Kaboré", "Kouyaté", "Mekonnen", "Nkosi",
+    "Moyo", "Chiume", "Nyambe", "Kamara", "Bello", "Okonkwo", "Obi", "Dlamini", "Akinyemi", "Bello",
+    "Otieno", "Ngugi", "Adebayo", "Simba", "Olamide", "Jalloh", "Madiba", "Idowu", "Nkrumah", "Odinga",
+    "Kumalo", "Azikiwe", "Gueye", "Babalola", "Njenga", "Juma", "Tembo", "Lusambo", "Eze", "Balogun",
+    "Egbue", "Ali", "Bakari", "Mukasa", "Kalumba", "Mulenga", "Nyoni", "Opoku", "Owusu", "Ofori",
+    "Kankam", "Twumasi", "Kwame", "Sow", "Adom", "Adeyemi", "Afolayan", "Kagiso", "Chaka", "Annan",
+    "Chiluba", "Kaunda", "Nyerere", "Mandela", "Mugabe", "Obasanjo", "Museveni", "Rawlings", "Jammeh", "Kenyatta",
+    "Mills", "Banda", "Sankara", "Seko", "Bokassa", "Aziz", "Deby", "Biya", "Nguema", "Barrow",
+    "Cissé", "Touré", "Kaba", "Amin", "Awuah", "Nwosu", "Mbadiwe", "Nnamani", "Agbaje", "Abebe"
+  ]
+}

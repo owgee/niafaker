@@ -1,0 +1,922 @@
+{
+  "addresses": {
+    "Algeria": {
+      "Algiers": [
+        "15 Rue Didouche Mourad, Algiers",
+        "48 Boulevard Krim Belkacem, Algiers",
+        "25 Rue Larbi Ben M'hidi, Algiers"
+      ],
+      "Oran": [
+        "3 Rue de la Liberté, Oran",
+        "10 Boulevard de l'ALN, Oran",
+        "22 Rue Abane Ramdane, Oran"
+      ],
+      "Constantine": [
+        "18 Rue de France, Constantine",
+        "32 Avenue Abdelhamid Mehri, Constantine",
+        "5 Rue Ben M'hidi, Constantine"
+      ]
+    },
+    "Angola": {
+      "Luanda": [
+        "Rua Rainha Ginga, Luanda",
+        "Avenida 4 de Fevereiro, Luanda",
+        "Rua Amílcar Cabral, Luanda"
+      ],
+      "Huambo": [
+        "Rua do Comércio, Huambo",
+        "Avenida da Independência, Huambo",
+        "Rua da República, Huambo"
+      ],
+      "Lobito": [
+        "Rua 1º de Maio, Lobito",
+        "Avenida Marginal, Lobito",
+        "Rua 4 de Abril, Lobito"
+      ]
+    },
+    "Benin": {
+      "Porto-Novo": [
+        "Avenue Jean-Paul II, Porto-Novo",
+        "Rue du Palais, Porto-Novo",
+        "Boulevard de la Marina, Porto-Novo"
+      ],
+      "Cotonou": [
+        "Avenue Steinmetz, Cotonou",
+        "Boulevard de France, Cotonou",
+        "Rue des Hydrocarbures, Cotonou"
+      ],
+      "Parakou": [
+        "Rue de l'Indépendance, Parakou",
+        "Avenue de la République, Parakou",
+        "Boulevard de la Paix, Parakou"
+      ]
+    },
+    "Botswana": {
+      "Gaborone": [
+        "Khama Crescent, Gaborone",
+        "Independence Avenue, Gaborone",
+        "Nelson Mandela Drive, Gaborone"
+      ],
+      "Francistown": [
+        "Blue Jacket Street, Francistown",
+        "Tati River Road, Francistown",
+        "Haskins Street, Francistown"
+      ],
+      "Molepolole": [
+        "Main Road, Molepolole",
+        "Molepolole Street, Molepolole",
+        "Lobatse Road, Molepolole"
+      ]
+    },
+    "Burkina Faso": {
+      "Ouagadougou": [
+        "Avenue Kwamé N'Krumah, Ouagadougou",
+        "Boulevard Charles de Gaulle, Ouagadougou",
+        "Rue Joseph Ki-Zerbo, Ouagadougou"
+      ],
+      "Bobo-Dioulasso": [
+        "Avenue de l'Indépendance, Bobo-Dioulasso",
+        "Boulevard de la Révolution, Bobo-Dioulasso",
+        "Rue de la Liberté, Bobo-Dioulasso"
+      ],
+      "Koudougou": [
+        "Avenue de la Paix, Koudougou",
+        "Rue de la Cathédrale, Koudougou",
+        "Boulevard des Armées, Koudougou"
+      ]
+    },
+    "Burundi": {
+      "Gitega": [
+        "Avenue de la Jeunesse, Gitega",
+        "Rue de la République, Gitega",
+        "Boulevard de l'Unité, Gitega"
+      ],
+      "Bujumbura": [
+        "Avenue du 13 Octobre, Bujumbura",
+        "Boulevard Patrice Lumumba, Bujumbura",
+        "Rue du Lac Tanganyika, Bujumbura"
+      ],
+      "Ngozi": [
+        "Rue de l'Indépendance, Ngozi",
+        "Avenue des Martyrs, Ngozi",
+        "Boulevard de la Paix, Ngozi"
+      ]
+    },
+    "Cabo Verde": {
+      "Praia": [
+        "Avenida Cidade de Lisboa, Praia",
+        "Rua Serpa Pinto, Praia",
+        "Avenida Amílcar Cabral, Praia"
+      ],
+      "Mindelo": [
+        "Rua de Lisboa, Mindelo",
+        "Avenida Marginal, Mindelo",
+        "Rua Amílcar Cabral, Mindelo"
+      ],
+      "Santa Maria": [
+        "Rua 1 de Junho, Santa Maria",
+        "Avenida dos Hérois, Santa Maria",
+        "Rua 15 de Agosto, Santa Maria"
+      ]
+    },
+    "Cameroon": {
+      "Yaoundé": [
+        "Boulevard du 20 Mai, Yaoundé",
+        "Avenue Kennedy, Yaoundé",
+        "Rue Elig-Essono, Yaoundé"
+      ],
+      "Douala": [
+        "Boulevard de la Liberté, Douala",
+        "Rue de la Joie, Douala",
+        "Avenue des Cocotiers, Douala"
+      ],
+      "Garoua": [
+        "Rue de la Gare, Garoua",
+        "Avenue de la Paix, Garoua",
+        "Boulevard de l'Unité, Garoua"
+      ]
+    },
+    "Central African Republic": {
+      "Bangui": [
+        "Avenue de l'Indépendance, Bangui",
+        "Rue de France, Bangui",
+        "Boulevard du 15 Août, Bangui"
+      ],
+      "Bimbo": [
+        "Rue de la Liberté, Bimbo",
+        "Avenue des Martyrs, Bimbo",
+        "Boulevard de l'Unité, Bimbo"
+      ],
+      "Berbérati": [
+        "Rue de l'Église, Berbérati",
+        "Avenue de la République, Berbérati",
+        "Boulevard de la Paix, Berbérati"
+      ]
+    },
+    "Chad": {
+      "N'Djamena": [
+        "Avenue Charles de Gaulle, N'Djamena",
+        "Rue de Marseille, N'Djamena",
+        "Boulevard de l'Indépendance, N'Djamena"
+      ],
+      "Moundou": [
+        "Rue de la Gare, Moundou",
+        "Avenue de la Liberté, Moundou",
+        "Boulevard de la Paix, Moundou"
+      ],
+      "Sarh": [
+        "Rue de l'Église, Sarh",
+        "Avenue de la République, Sarh",
+        "Boulevard des Nations, Sarh"
+      ]
+    },
+    "Comoros": {
+      "Moroni": [
+        "Rue de la Corniche, Moroni",
+        "Avenue de la Liberté, Moroni",
+        "Boulevard de l'Indépendance, Moroni"
+      ],
+      "Mutsamudu": [
+        "Rue de l'Église, Mutsamudu",
+        "Avenue des Martyrs, Mutsamudu",
+        "Boulevard de la Paix, Mutsamudu"
+      ],
+      "Fomboni": [
+        "Rue de la Gare, Fomboni",
+        "Avenue de la République, Fomboni",
+        "Boulevard de l'Unité, Fomboni"
+      ]
+    },
+    "Congo": {
+      "Brazzaville": [
+        "Avenue des Trois Martyrs, Brazzaville",
+        "Boulevard Denis Sassou Nguesso, Brazzaville",
+        "Rue Mfoa, Brazzaville"
+      ],
+      "Pointe-Noire": [
+        "Avenue de la Paix, Pointe-Noire",
+        "Boulevard du Général de Gaulle, Pointe-Noire",
+        "Rue Loango, Pointe-Noire"
+      ],
+      "Dolisie": [
+        "Rue de la Gare, Dolisie",
+        "Avenue de la République, Dolisie",
+        "Boulevard des Nations, Dolisie"
+      ]
+    },
+    "Congo, Democratic Republic of the": {
+      "Kinshasa": [
+        "Avenue des Huileries, Kinshasa",
+        "Boulevard du 30 Juin, Kinshasa",
+        "Rue de l'Université, Kinshasa"
+      ],
+      "Lubumbashi": [
+        "Avenue Kamanyola, Lubumbashi",
+        "Boulevard Lumumba, Lubumbashi",
+        "Rue du Marché, Lubumbashi"
+      ],
+      "Mbuji-Mayi": [
+        "Avenue de la Révolution, Mbuji-Mayi",
+        "Boulevard Inga, Mbuji-Mayi",
+        "Rue de l'Indépendance, Mbuji-Mayi"
+      ]
+    },
+    "Djibouti": {
+      "Djibouti": [
+        "Avenue George Pompidou, Djibouti",
+        "Rue de Genève, Djibouti",
+        "Boulevard de la République, Djibouti"
+      ],
+      "Ali Sabieh": [
+        "Rue de l'Église, Ali Sabieh",
+        "Avenue de la Paix, Ali Sabieh",
+        "Boulevard des Nations, Ali Sabieh"
+      ],
+      "Tadjourah": [
+        "Rue de la Gare, Tadjourah",
+        "Avenue de la Liberté, Tadjourah",
+        "Boulevard de l'Indépendance, Tadjourah"
+      ]
+    },
+    "Egypt": {
+      "Cairo": [
+        "Tahrir Square, Cairo",
+        "Ramses Street, Cairo",
+        "Qasr El Nil Street, Cairo"
+      ],
+      "Alexandria": [
+        "Corniche Road, Alexandria",
+        "El Horreya Road, Alexandria",
+        "Abu Qir Street, Alexandria"
+      ],
+      "Giza": [
+        "Pyramids Road, Giza",
+        "Al Haram Street, Giza",
+        "El Talbia Street, Giza"
+      ]
+    },
+    "Equatorial Guinea": {
+      "Malabo": [
+        "Avenida de la Independencia, Malabo",
+        "Calle de la Libertad, Malabo",
+        "Boulevard de l'Unité, Malabo"
+      ],
+      "Bata": [
+        "Avenida de la Libertad, Bata",
+        "Calle de la Paix, Bata",
+        "Boulevard de la République, Bata"
+      ],
+      "Ebebiyin": [
+        "Avenida de la Paix, Ebebiyin",
+        "Calle de l'Unité, Ebebiyin",
+        "Boulevard de l'Indépendance, Ebebiyin"
+      ]
+    },
+    "Eritrea": {
+      "Asmara": [
+        "Harnet Avenue, Asmara",
+        "Liberation Avenue, Asmara",
+        "Martyrs' Avenue, Asmara"
+      ],
+      "Keren": [
+        "Avenue de la Liberté, Keren",
+        "Rue de la Gare, Keren",
+        "Boulevard des Nations, Keren"
+      ],
+      "Massawa": [
+        "Avenue de la Mer Rouge, Massawa",
+        "Rue de l'Indépendance, Massawa",
+        "Boulevard de la Paix, Massawa"
+      ]
+    },
+    "Eswatini": {
+      "Mbabane": [
+        "Dr. Sishayi Street, Mbabane",
+        "Gwamile Street, Mbabane",
+        "Mahlokohla Street, Mbabane"
+      ],
+      "Manzini": [
+        "Ngwane Street, Manzini",
+        "Matsapha Road, Manzini",
+        "Bhunu Mall Road, Manzini"
+      ],
+      "Big Bend": [
+        "Sugar Road, Big Bend",
+        "Simunye Road, Big Bend",
+        "Nisela Road, Big Bend"
+      ]
+    },
+    "Ethiopia": {
+      "Addis Ababa": [
+        "Bole Road, Addis Ababa",
+        "Churchill Avenue, Addis Ababa",
+        "Africa Avenue, Addis Ababa"
+      ],
+      "Dire Dawa": [
+        "Tewodros Avenue, Dire Dawa",
+        "Ras Makonnen Street, Dire Dawa",
+        "Meskel Flower Road, Dire Dawa"
+      ],
+      "Mekelle": [
+        "Alem Bekagn Street, Mekelle",
+        "Quiha Road, Mekelle",
+        "Debre Birhan Street, Mekelle"
+      ]
+    },
+    "Gabon": {
+      "Libreville": [
+        "Boulevard de l'Indépendance, Libreville",
+        "Avenue du Général de Gaulle, Libreville",
+        "Rue de la Paix, Libreville"
+      ],
+      "Port-Gentil": [
+        "Avenue de la Marine, Port-Gentil",
+        "Boulevard du Président, Port-Gentil",
+        "Rue de l'Unité, Port-Gentil"
+      ],
+      "Franceville": [
+        "Avenue de France, Franceville",
+        "Rue de la République, Franceville",
+        "Boulevard de la Paix, Franceville"
+      ]
+    },
+    "Gambia": {
+      "Banjul": [
+        "Independence Drive, Banjul",
+        "Marina Parade, Banjul",
+        "Albion Place, Banjul"
+      ],
+      "Serrekunda": [
+        "Kairaba Avenue, Serrekunda",
+        "Pipeline Road, Serrekunda",
+        "Bertil Harding Highway, Serrekunda"
+      ],
+      "Brikama": [
+        "New Market Road, Brikama",
+        "Westfield Road, Brikama",
+        "Gamtel Road, Brikama"
+      ]
+    },
+    "Ghana": {
+      "Accra": [
+        "Oxford Street, Accra",
+        "Ring Road Central, Accra",
+        "Independence Avenue, Accra"
+      ],
+      "Kumasi": [
+        "Adum Street, Kumasi",
+        "Bantama High Street, Kumasi",
+        "Kejetia Road, Kumasi"
+      ],
+      "Tamale": [
+        "Sagnarigu Road, Tamale",
+        "Lamashegu Road, Tamale",
+        "Aboabo Road, Tamale"
+      ]
+    },
+    "Guinea": {
+      "Conakry": [
+        "Avenue de la République, Conakry",
+        "Boulevard du Commerce, Conakry",
+        "Rue du Niger, Conakry"
+      ],
+      "Nzérékoré": [
+        "Rue de la Liberté, Nzérékoré",
+        "Avenue de l'Indépendance, Nzérékoré",
+        "Boulevard de la Paix, Nzérékoré"
+      ],
+      "Kankan": [
+        "Rue de l'Église, Kankan",
+        "Avenue de la République, Kankan",
+        "Boulevard des Nations, Kankan"
+      ]
+    },
+    "Guinea-Bissau": {
+      "Bissau": [
+        "Avenida Amílcar Cabral, Bissau",
+        "Rua Guerra Mendes, Bissau",
+        "Boulevard de la République, Bissau"
+      ],
+      "Bafatá": [
+        "Avenue des Héros, Bafatá",
+        "Rue de l'Église, Bafatá",
+        "Boulevard de la Paix, Bafatá"
+      ],
+      "Gabú": [
+        "Avenue de la Liberté, Gabú",
+        "Rue de la Gare, Gabú",
+        "Boulevard de l'Unité, Gabú"
+      ]
+    },
+    "Ivory Coast": {
+      "Abidjan": [
+        "Boulevard de Marseille, Abidjan",
+        "Rue des Jardins, Abidjan",
+        "Avenue Chardy, Abidjan"
+      ],
+      "Yamoussoukro": [
+        "Rue de la Basilique, Yamoussoukro",
+        "Avenue Houphouët-Boigny, Yamoussoukro",
+        "Boulevard de la Paix, Yamoussoukro"
+      ],
+      "Bouaké": [
+        "Rue de l'Indépendance, Bouaké",
+        "Avenue de la Victoire, Bouaké",
+        "Boulevard des Nations, Bouaké"
+      ]
+    },
+    "Kenya": {
+      "Nairobi": [
+        "Kenyatta Avenue, Nairobi",
+        "Moi Avenue, Nairobi",
+        "Uhuru Highway, Nairobi"
+      ],
+      "Mombasa": [
+        "Nkrumah Road, Mombasa",
+        "Moi Avenue, Mombasa",
+        "Jomo Kenyatta Avenue, Mombasa"
+      ],
+      "Kisumu": [
+        "Oginga Odinga Street, Kisumu",
+        "Jomo Kenyatta Highway, Kisumu",
+        "Achieng Oneko Road, Kisumu"
+      ]
+    },
+    "Lesotho": {
+      "Maseru": [
+        "Kingsway Road, Maseru",
+        "Moshoeshoe Road, Maseru",
+        "Pioneer Road, Maseru"
+      ],
+      "Teyateyaneng": [
+        "Main Road, Teyateyaneng",
+        "Mafeteng Road, Teyateyaneng",
+        "Leribe Road, Teyateyaneng"
+      ],
+      "Mafeteng": [
+        "Moshoeshoe Road, Mafeteng",
+        "Leribe Road, Mafeteng",
+        "Pioneer Road, Mafeteng"
+      ]
+    },
+    "Liberia": {
+      "Monrovia": [
+        "Broad Street, Monrovia",
+        "Ashmun Street, Monrovia",
+        "Tubman Boulevard, Monrovia"
+      ],
+      "Gbarnga": [
+        "Bong Mines Road, Gbarnga",
+        "Cuttington Road, Gbarnga",
+        "Broad Street, Gbarnga"
+      ],
+      "Kakata": [
+        "Firestone Road, Kakata",
+        "Broad Street, Kakata",
+        "Bong Mines Road, Kakata"
+      ]
+    },
+    "Libya": {
+      "Tripoli": [
+        "Al Mansur Street, Tripoli",
+        "Gergarish Road, Tripoli",
+        "Shara Omar Mokhtar, Tripoli"
+      ],
+      "Benghazi": [
+        "Gamla Abdel Nasser Street, Benghazi",
+        "Venice Street, Benghazi",
+        "Shara Dubai, Benghazi"
+      ],
+      "Misrata": [
+        "Alkhamsa Street, Misrata",
+        "Almadina Street, Misrata",
+        "Shara Zawiyat, Misrata"
+      ]
+    },
+    "Madagascar": {
+      "Antananarivo": [
+        "Avenue de l'Indépendance, Antananarivo",
+        "Rue Ravelojaona, Antananarivo",
+        "Boulevard de l'Europe, Antananarivo"
+      ],
+      "Toamasina": [
+        "Rue de l'Église, Toamasina",
+        "Avenue de la Liberté, Toamasina",
+        "Boulevard des Nations, Toamasina"
+      ],
+      "Antsirabe": [
+        "Rue de la Gare, Antsirabe",
+        "Avenue de la République, Antsirabe",
+        "Boulevard de la Paix, Antsirabe"
+      ]
+    },
+    "Malawi": {
+      "Lilongwe": [
+        "Presidential Way, Lilongwe",
+        "Kamuzu Procession Road, Lilongwe",
+        "Paul Kagame Road, Lilongwe"
+      ],
+      "Blantyre": [
+        "Victoria Avenue, Blantyre",
+        "Glyn Jones Road, Blantyre",
+        "Henderson Street, Blantyre"
+      ],
+      "Mzuzu": [
+        "M1 Road, Mzuzu",
+        "Katoto Road, Mzuzu",
+        "Karonga Road, Mzuzu"
+      ]
+    },
+    "Mali": {
+      "Bamako": [
+        "Avenue du Mali, Bamako",
+        "Rue Princesse, Bamako",
+        "Boulevard de l'Indépendance, Bamako"
+      ],
+      "Sikasso": [
+        "Rue de la Liberté, Sikasso",
+        "Avenue de la République, Sikasso",
+        "Boulevard des Nations, Sikasso"
+      ],
+      "Mopti": [
+        "Rue de l'Église, Mopti",
+        "Avenue de la Liberté, Mopti",
+        "Boulevard de la Paix, Mopti"
+      ]
+    },
+    "Mauritania": {
+      "Nouakchott": [
+        "Avenue de Gaulle, Nouakchott",
+        "Rue de l'Indépendance, Nouakchott",
+        "Boulevard de la République, Nouakchott"
+      ],
+      "Nouadhibou": [
+        "Rue de la Liberté, Nouadhibou",
+        "Avenue des Martyrs, Nouadhibou",
+        "Boulevard de l'Unité, Nouadhibou"
+      ],
+      "Kaédi": [
+        "Rue de la Gare, Kaédi",
+        "Avenue de la République, Kaédi",
+        "Boulevard des Nations, Kaédi"
+      ]
+    },
+    "Mauritius": {
+      "Port Louis": [
+        "Royal Road, Port Louis",
+        "Sir Seewoosagur Ramgoolam Street, Port Louis",
+        "Queen Street, Port Louis"
+      ],
+      "Beau Bassin-Rose Hill": [
+        "Saint Jean Road, Beau Bassin-Rose Hill",
+        "Vandermeersch Street, Beau Bassin-Rose Hill",
+        "John Kennedy Street, Beau Bassin-Rose Hill"
+      ],
+      "Vacoas-Phoenix": [
+        "Independence Street, Vacoas-Phoenix",
+        "Jumbo Road, Vacoas-Phoenix",
+        "Curepipe Road, Vacoas-Phoenix"
+      ]
+    },
+    "Morocco": {
+      "Rabat": [
+        "Avenue Mohammed V, Rabat",
+        "Rue Souika, Rabat",
+        "Boulevard Hassan II, Rabat"
+      ],
+      "Casablanca": [
+        "Boulevard Mohammed V, Casablanca",
+        "Rue de Paris, Casablanca",
+        "Avenue des FAR, Casablanca"
+      ],
+      "Marrakech": [
+        "Avenue Mohammed VI, Marrakech",
+        "Rue de la Liberté, Marrakech",
+        "Boulevard El Mansour Eddahbi, Marrakech"
+      ]
+    },
+    "Mozambique": {
+      "Maputo": [
+        "Avenida Julius Nyerere, Maputo",
+        "Avenida Eduardo Mondlane, Maputo",
+        "Rua de Bagamoyo, Maputo"
+      ],
+      "Matola": [
+        "Avenida Samora Machel, Matola",
+        "Rua de Namaacha, Matola",
+        "Boulevard de la Paix, Matola"
+      ],
+      "Beira": [
+        "Avenida Marginal, Beira",
+        "Rua de Dondo, Beira",
+        "Boulevard des Nations, Beira"
+      ]
+    },
+    "Namibia": {
+      "Windhoek": [
+        "Independence Avenue, Windhoek",
+        "Robert Mugabe Avenue, Windhoek",
+        "Sam Nujoma Drive, Windhoek"
+      ],
+      "Rundu": [
+        "Dr. Sam Nujoma Road, Rundu",
+        "Kaisosi Street, Rundu",
+        "Sunset Street, Rundu"
+      ],
+      "Walvis Bay": [
+        "Sam Nujoma Avenue, Walvis Bay",
+        "Union Street, Walvis Bay",
+        "Fisheries Road, Walvis Bay"
+      ]
+    },
+    "Niger": {
+      "Niamey": [
+        "Avenue de la Liberté, Niamey",
+        "Rue de l'Indépendance, Niamey",
+        "Boulevard de la Paix, Niamey"
+      ],
+      "Zinder": [
+        "Avenue de la République, Zinder",
+        "Rue de la Gare, Zinder",
+        "Boulevard des Nations, Zinder"
+      ],
+      "Maradi": [
+        "Rue de l'Église, Maradi",
+        "Avenue de la Paix, Maradi",
+        "Boulevard de l'Unité, Maradi"
+      ]
+    },
+    "Nigeria": {
+      "Lagos": [
+        "Broad Street, Lagos",
+        "Awolowo Road, Lagos",
+        "Ajose Adeogun Street, Lagos"
+      ],
+      "Abuja": [
+        "Ahmadu Bello Way, Abuja",
+        "Garki Area 1, Abuja",
+        "Herbert Macaulay Way, Abuja"
+      ],
+      "Kano": [
+        "Aminu Kano Crescent, Kano",
+        "Bompai Road, Kano",
+        "Hadejia Road, Kano"
+      ]
+    },
+    "Rwanda": {
+      "Kigali": [
+        "KN 5 Road, Kigali",
+        "KG 7 Avenue, Kigali",
+        "KK 21 Street, Kigali"
+      ],
+      "Butare": [
+        "Avenue de l'Indépendance, Butare",
+        "Rue de la Liberté, Butare",
+        "Boulevard des Nations, Butare"
+      ],
+      "Gisenyi": [
+        "Rue de la Gare, Gisenyi",
+        "Avenue de la République, Gisenyi",
+        "Boulevard de la Paix, Gisenyi"
+      ]
+    },
+    "Sao Tome and Principe": {
+      "São Tomé": [
+        "Avenida Marginal 12 de Julho, São Tomé",
+        "Rua da Independência, São Tomé",
+        "Boulevard de la Paix, São Tomé"
+      ],
+      "Santo Amaro": [
+        "Avenida de la Liberté, Santo Amaro",
+        "Rue de l'Église, Santo Amaro",
+        "Boulevard des Nations, Santo Amaro"
+      ],
+      "Neves": [
+        "Rue de la Gare, Neves",
+        "Avenue de la République, Neves",
+        "Boulevard de l'Unité, Neves"
+      ]
+    },
+    "Senegal": {
+      "Dakar": [
+        "Avenue Cheikh Anta Diop, Dakar",
+        "Rue Carnot, Dakar",
+        "Boulevard de la République, Dakar"
+      ],
+      "Saint-Louis": [
+        "Avenue Jean Mermoz, Saint-Louis",
+        "Rue Blaise Diagne, Saint-Louis",
+        "Boulevard du Général de Gaulle, Saint-Louis"
+      ],
+      "Touba": [
+        "Avenue des Héros, Touba",
+        "Rue de l'Église, Touba",
+        "Boulevard de la Paix, Touba"
+      ]
+    },
+    "Seychelles": {
+      "Victoria": [
+        "Independence Avenue, Victoria",
+        "Revolution Avenue, Victoria",
+        "Francis Rachel Street, Victoria"
+      ],
+      "Anse Boileau": [
+        "Les Mamelles Road, Anse Boileau",
+        "Anse à la Mouche Road, Anse Boileau",
+        "Boulevard des Nations, Anse Boileau"
+      ],
+      "Bel Ombre": [
+        "Bel Ombre Road, Bel Ombre",
+        "Glacis Road, Bel Ombre",
+        "Boulevard de la Paix, Bel Ombre"
+      ]
+    },
+    "Sierra Leone": {
+      "Freetown": [
+        "Siaka Stevens Street, Freetown",
+        "Wilkinson Road, Freetown",
+        "Goderich Street, Freetown"
+      ],
+      "Bo": [
+        "Bai Bureh Road, Bo",
+        "Avenue de la République, Bo",
+        "Boulevard de la Paix, Bo"
+      ],
+      "Kenema": [
+        "Rue de la Liberté, Kenema",
+        "Avenue des Martyrs, Kenema",
+        "Boulevard de l'Unité, Kenema"
+      ]
+    },
+    "Somalia": {
+      "Mogadishu": [
+        "Makmoud Harbi Street, Mogadishu",
+        "Jidka Sodonka, Mogadishu",
+        "Via Roma, Mogadishu"
+      ],
+      "Hargeisa": [
+        "Independence Avenue, Hargeisa",
+        "26 June Avenue, Hargeisa",
+        "Gulaid Road, Hargeisa"
+      ],
+      "Bosaso": [
+        "Main Road, Bosaso",
+        "Independence Street, Bosaso",
+        "Peace Boulevard, Bosaso"
+      ]
+    },
+    "South Africa": {
+      "Johannesburg": [
+        "Nelson Mandela Bridge, Johannesburg",
+        "Rissik Street, Johannesburg",
+        "Bree Street, Johannesburg"
+      ],
+      "Cape Town": [
+        "Adderley Street, Cape Town",
+        "Long Street, Cape Town",
+        "Buitengracht Street, Cape Town"
+      ],
+      "Durban": [
+        "Victoria Embankment, Durban",
+        "West Street, Durban",
+        "Smith Street, Durban"
+      ]
+    },
+    "South Sudan": {
+      "Juba": [
+        "Nile Avenue, Juba",
+        "Gudele Road, Juba",
+        "Airport Road, Juba"
+      ],
+      "Malakal": [
+        "Malakal Road, Malakal",
+        "Upper Nile Avenue, Malakal",
+        "Hospital Road, Malakal"
+      ],
+      "Wau": [
+        "Wau Avenue, Wau",
+        "Market Street, Wau",
+        "Peace Road, Wau"
+      ]
+    },
+    "Sudan": {
+      "Khartoum": [
+        "Nile Street, Khartoum",
+        "Africa Street, Khartoum",
+        "University Street, Khartoum"
+      ],
+      "Omdurman": [
+        "Al Arbaeen Street, Omdurman",
+        "Shuhada Street, Omdurman",
+        "Muqran Street, Omdurman"
+      ],
+      "Port Sudan": [
+        "Al Shati Street, Port Sudan",
+        "Al Nil Street, Port Sudan",
+        "Market Street, Port Sudan"
+      ]
+    },
+    "Tanzania": {
+      "Dar es Salaam": [
+        "Sam Nujoma Road, Dar es Salaam",
+        "Ali Hassan Mwinyi Road, Dar es Salaam",
+        "Morogoro Road, Dar es Salaam"
+      ],
+      "Dodoma": [
+        "Kisasa Road, Dodoma",
+        "Nyerere Road, Dodoma",
+        "Bunge Road, Dodoma"
+      ],
+      "Arusha": [
+        "Nairobi Road, Arusha",
+        "Sokoine Road, Arusha",
+        "Old Moshi Road, Arusha"
+      ]
+    },
+    "Togo": {
+      "Lomé": [
+        "Boulevard de la Paix, Lomé",
+        "Avenue de la Libération, Lomé",
+        "Rue des Missions, Lomé"
+      ],
+      "Sokodé": [
+        "Rue de l'Église, Sokodé",
+        "Avenue des Martyrs, Sokodé",
+        "Boulevard de l'Unité, Sokodé"
+      ],
+      "Kara": [
+        "Avenue de la République, Kara",
+        "Rue de la Gare, Kara",
+        "Boulevard des Nations, Kara"
+      ]
+    },
+    "Tunisia": {
+      "Tunis": [
+        "Avenue Habib Bourguiba, Tunis",
+        "Rue de Marseille, Tunis",
+        "Boulevard de la Liberté, Tunis"
+      ],
+      "Sfax": [
+        "Avenue Habib Bourguiba, Sfax",
+        "Rue de l'Indépendance, Sfax",
+        "Boulevard Farhat Hached, Sfax"
+      ],
+      "Sousse": [
+        "Avenue Habib Bourguiba, Sousse",
+        "Rue de la Paix, Sousse",
+        "Boulevard du 7 Novembre, Sousse"
+      ]
+    },
+    "Uganda": {
+      "Kampala": [
+        "Kampala Road, Kampala",
+        "Jinja Road, Kampala",
+        "Yusuf Lule Road, Kampala"
+      ],
+      "Entebbe": [
+        "Airport Road, Entebbe",
+        "Berkeley Road, Entebbe",
+        "Kampala-Entebbe Road, Entebbe"
+      ],
+      "Gulu": [
+        "Main Street, Gulu",
+        "Market Street, Gulu",
+        "Independence Avenue, Gulu"
+      ]
+    },
+    "Zambia": {
+      "Lusaka": [
+        "Cairo Road, Lusaka",
+        "Independence Avenue, Lusaka",
+        "Chachacha Road, Lusaka"
+      ],
+      "Kitwe": [
+        "President Avenue, Kitwe",
+        "Freedom Way, Kitwe",
+        "Independence Avenue, Kitwe"
+      ],
+      "Ndola": [
+        "Broadway Street, Ndola",
+        "President Avenue, Ndola",
+        "Freedom Way, Ndola"
+      ]
+    },
+    "Zimbabwe": {
+      "Harare": [
+        "Samora Machel Avenue, Harare",
+        "Nelson Mandela Avenue, Harare",
+        "Julius Nyerere Way, Harare"
+      ],
+      "Bulawayo": [
+        "Joshua Nkomo Street, Bulawayo",
+        "Main Street, Bulawayo",
+        "Robert Mugabe Way, Bulawayo"
+      ],
+      "Chitungwiza": [
+        "Tilcor Road, Chitungwiza",
+        "St. Mary's Road, Chitungwiza",
+        "Seke Road, Chitungwiza"
+      ]
+    }
+  }
+}
