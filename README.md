@@ -56,7 +56,7 @@ print(address)
 ```python
 import niafaker
 
-address = niafaker.generate_address('Kenya', 'Nairobi')
+address = niafaker.generate_address('Tanzania', 'Arusha')
 print(address)
 ```
 
