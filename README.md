@@ -1,7 +1,7 @@
 
 # NiaFaker
 
-NiaFaker is a Python package that generates fake data localized for African contexts. It can generate names, emails, phone numbers, addresses, cities, and countries. 
+NiaFaker is a Python package that generates fake data localized for African contexts. It can generate names, emails, phone numbers, addresses, cities, and all African countries. 
 
 ## Installation
 
