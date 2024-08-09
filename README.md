@@ -18,72 +18,72 @@ Here's how to use NiaFaker to generate various types of fake data:
 ### Generate a Random Name
 
 ```python
-import niafaker
+import niafaker as nf
 
-name = niafaker.generate_name()
+name = nf.generate_name()
 print(name)
 ```
 
 ### Generate a Random Email
 
 ```python
-import niafaker
+import niafaker as nf
 
-email = niafaker.generate_email()
+email = nf.generate_email()
 print(email)
 ```
 
 ### Generate a Random Phone Number
 
 ```python
-import niafaker
+import niafaker as nf
 
-phone_number = niafaker.generate_phone_number()
+phone_number = nf.generate_phone_number()
 print(phone_number)
 ```
 
 ### Generate a Random Address
 
 ```python
-import niafaker
+import niafaker as nf
 
-address = niafaker.generate_address()
+address = nf.generate_address()
 print(address)
 ```
 
 ### Generate a Random Address for a Specific Country and City
 
 ```python
-import niafaker
+import niafaker as nf
 
-address = niafaker.generate_address('Tanzania', 'Arusha')
+address = nf.generate_address('Tanzania', 'Arusha')
 print(address)
 ```
 
 ### Generate a Random City
 
 ```python
-import niafaker
+import niafaker as nf
 
-city = niafaker.generate_city()
+city = nf.generate_city()
 print(city)
 ```
 
 ### Generate a Random City for a Specific Country
 
 ```python
-import niafaker
+import niafaker as nf
 
-city = niafaker.generate_city('Nigeria')
+city = nf.generate_city('Nigeria')
 print(city)
 ```
 
 ### Generate a Random Country
 
 ```python
-import niafaker
+import niafaker as nf
 
-country = niafaker.generate_country()
+country = nf.generate_country()
 print(country)
 ```
 ### Running Tests
