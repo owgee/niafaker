@@ -1,0 +1,21 @@
+{
+  "cities": [
+    "Casablanca", "Rabat", "Fès", "Marrakech", "Tangier", "Agadir", "Oujda",
+    "Kénitra", "Tétouan", "Meknès", "El Jadida", "Safi", "Nador", "Khouribga",
+    "Béni Mellal"
+  ],
+  "regions": [
+    "Casablanca-Settat", "Rabat-Salé-Kénitra", "Fès-Meknès", "Marrakech-Safi",
+    "Tanger-Tétouan-Al Hoceima", "Souss-Massa", "Oriental", "Béni Mellal-Khénifra",
+    "Drâa-Tafilalet", "Laâyoune-Sakia El Hamra", "Dakhla-Oued Ed-Dahab"
+  ],
+  "streets": [
+    "Boulevard Mohammed V", "Avenue Hassan II", "Boulevard Zerktouni", "Avenue Mohammed VI",
+    "Rue Ibn Battouta", "Boulevard d'Anfa", "Avenue des FAR", "Rue Oqba",
+    "Boulevard Rachidi", "Avenue Allal Ben Abdallah", "Rue du Commerce",
+    "Boulevard Pasteur", "Avenue Abdelmoumen", "Rue Ibnou Rochd",
+    "Boulevard Bir Anzarane"
+  ],
+  "street_patterns": ["{number} {street}", "{street}, {number}"],
+  "postal_codes": null
+}

@@ -1,0 +1,26 @@
+{
+  "country_code": "255",
+  "subscriber_digits": 9,
+  "carriers": [
+    {
+      "name": "Vodacom",
+      "prefixes": ["74", "75", "76", "79"]
+    },
+    {
+      "name": "Airtel",
+      "prefixes": ["78", "68", "69"]
+    },
+    {
+      "name": "Tigo",
+      "prefixes": ["71", "65", "67", "77"]
+    },
+    {
+      "name": "Halotel",
+      "prefixes": ["61", "62"]
+    },
+    {
+      "name": "TTCL",
+      "prefixes": ["73"]
+    }
+  ]
+}

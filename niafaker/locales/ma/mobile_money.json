@@ -1,0 +1,10 @@
+{
+  "country_code": "212",
+  "subscriber_digits": 9,
+  "providers": [
+    {"name": "Maroc Telecom m-wallet", "prefixes": ["61", "62", "63", "64"]},
+    {"name": "Orange Money", "prefixes": ["66", "67", "68"]},
+    {"name": "Inwi Money", "prefixes": ["65", "69"]}
+  ],
+  "tx_prefix": "MA"
+}

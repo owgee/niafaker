@@ -1,0 +1,19 @@
+{
+  "country_code": "27",
+  "subscriber_digits": 9,
+  "tx_prefix": "SA",
+  "providers": [
+    {
+      "name": "FNB eWallet",
+      "prefixes": ["60", "61", "62", "63", "64", "66"]
+    },
+    {
+      "name": "Standard Bank Instant Money",
+      "prefixes": ["71", "73", "78", "83"]
+    },
+    {
+      "name": "Vodapay",
+      "prefixes": ["60", "61", "62", "63", "64", "66"]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "country_code": "251",
+  "subscriber_digits": 9,
+  "providers": [
+    {"name": "telebirr", "prefixes": ["91", "92", "93", "94", "95", "96", "97", "90"]},
+    {"name": "M-Pesa", "prefixes": ["40", "41"]}
+  ],
+  "tx_prefix": "ET"
+}

@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "niafaker"
+version = "1.0.0"
+description = "Fake data generator localized for African regions — names, phones, addresses, mobile money, national IDs, and more."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Owden Godson", email = "consultancy@owden.site"},
+]
+keywords = ["faker", "africa", "test-data", "mock", "localization", "mobile-money"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Testing",
+]
+
+[project.urls]
+Homepage = "https://github.com/owgee/niafaker"
+Repository = "https://github.com/owgee/niafaker"
+Issues = "https://github.com/owgee/niafaker/issues"
+
+[tool.setuptools.packages.find]
+include = ["niafaker*"]
+
+[tool.setuptools.package-data]
+niafaker = ["locales/**/*.json", "py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

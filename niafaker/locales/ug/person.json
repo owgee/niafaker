@@ -1,0 +1,23 @@
+{
+  "male_first_names": [
+    "Musa", "Joseph", "John", "Peter", "James", "David", "Samuel", "Moses", "Michael",
+    "Patrick", "Robert", "Daniel", "Ronald", "George", "Henry", "Paul", "Edward",
+    "Emmanuel", "Andrew", "Charles", "Richard", "Stephen", "Simon", "Francis",
+    "Lawrence", "Isaac", "Jacob", "Joseph", "Philip", "Thomas", "Vincent", "William"
+  ],
+  "female_first_names": [
+    "Grace", "Mary", "Joyce", "Esther", "Sarah", "Ruth", "Elizabeth", "Rose",
+    "Agnes", "Catherine", "Margaret", "Florence", "Betty", "Alice", "Josephine",
+    "Violet", "Christine", "Irene", "Stella", "Angella", "Namukasa", "Nakato",
+    "Nabirye", "Babirye", "Nabukenya", "Nakiganda", "Nakayiza", "Namusoke",
+    "Natukunda", "Nabatanzi", "Nalwadda"
+  ],
+  "last_names": [
+    "Mugisha", "Tumwesigye", "Nsubuga", "Kayongo", "Okello", "Otim", "Adong",
+    "Opio", "Ocen", "Akello", "Apio", "Asiimwe", "Auma", "Birungi", "Muhindo",
+    "Babirye", "Byaruhanga", "Natukunda", "Odongo", "Mbabazi", "Biira",
+    "Nabirye", "Ssemanda", "Nansubuga", "Tumwine", "Kyeyune", "Ssempala",
+    "Kizito", "Ssali", "Mukasa", "Kasozi", "Nakiganda"
+  ],
+  "email_domains": ["gmail.com", "yahoo.com", "outlook.com", "hotmail.com"]
+}

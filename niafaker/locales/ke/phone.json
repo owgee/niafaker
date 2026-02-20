@@ -1,0 +1,22 @@
+{
+  "country_code": "254",
+  "subscriber_digits": 9,
+  "carriers": [
+    {
+      "name": "Safaricom",
+      "prefixes": ["70", "71", "72", "79", "11", "10"]
+    },
+    {
+      "name": "Airtel",
+      "prefixes": ["73", "78", "10"]
+    },
+    {
+      "name": "Telkom",
+      "prefixes": ["77"]
+    },
+    {
+      "name": "Faiba",
+      "prefixes": ["74"]
+    }
+  ]
+}

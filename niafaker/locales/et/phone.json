@@ -1,0 +1,8 @@
+{
+  "country_code": "251",
+  "subscriber_digits": 9,
+  "carriers": [
+    {"name": "Ethio Telecom", "prefixes": ["91", "92", "93", "94", "95", "96", "97", "90"]},
+    {"name": "Safaricom Ethiopia", "prefixes": ["40", "41"]}
+  ]
+}

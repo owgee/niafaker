@@ -1,0 +1,19 @@
+{
+  "cities": [
+    "Cairo", "Alexandria", "Giza", "Sharm El-Sheikh", "Luxor", "Aswan", "Hurghada",
+    "Port Said", "Suez", "Ismailia", "Tanta", "Mansoura", "Assiut", "Zagazig",
+    "Beni Suef"
+  ],
+  "regions": [
+    "Cairo", "Alexandria", "Giza", "Qalyubia", "Dakahlia", "Sharqia", "Beheira",
+    "Gharbia", "Minya", "Assiut", "Sohag", "Qena", "Aswan", "Luxor", "Red Sea",
+    "South Sinai", "North Sinai", "Port Said", "Suez", "Ismailia"
+  ],
+  "streets": [
+    "Tahrir Square", "Ramses Street", "Nasr City", "Mohandessin", "Maadi",
+    "Zamalek", "Heliopolis", "Dokki", "Giza", "6th of October", "New Cairo",
+    "Alexandria Corniche", "Al-Azhar Street", "Kasr El-Nil", "Garden City"
+  ],
+  "street_patterns": ["{number} {street}", "{street}, {number}"],
+  "postal_codes": null
+}

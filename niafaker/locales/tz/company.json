@@ -1,0 +1,41 @@
+{
+  "names": [
+    "Mkombozi",
+    "Bakhresa",
+    "Azam",
+    "Karibu",
+    "Safari",
+    "Kilimanjaro",
+    "Serengeti",
+    "Tanzanite",
+    "Uhuru",
+    "Ujamaa",
+    "Twiga",
+    "Simba",
+    "Tembo",
+    "Ndovu",
+    "Nyuki",
+    "Kibo",
+    "Meru",
+    "Ngorongoro",
+    "Pemba",
+    "Zanzibar",
+    "Tanganyika",
+    "Victoria",
+    "Maendeleo",
+    "Umoja",
+    "Amani",
+    "Baraka",
+    "Pendo"
+  ],
+  "suffixes": [
+    "Ltd",
+    "Co. Ltd",
+    "PLC",
+    "Limited",
+    "Enterprises",
+    "Group",
+    "Holdings"
+  ],
+  "registration_pattern": "TZ-{digits:06d}"
+}

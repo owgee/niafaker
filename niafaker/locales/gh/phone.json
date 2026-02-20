@@ -1,0 +1,9 @@
+{
+  "country_code": "233",
+  "subscriber_digits": 9,
+  "carriers": [
+    {"name": "MTN", "prefixes": ["24", "25", "53", "54", "55", "59"]},
+    {"name": "Vodafone", "prefixes": ["20", "50"]},
+    {"name": "AirtelTigo", "prefixes": ["26", "27", "56", "57"]}
+  ]
+}

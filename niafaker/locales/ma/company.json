@@ -1,0 +1,11 @@
+{
+  "names": [
+    "Maroc Premier", "Atlas Holdings", "Casablanca Trading", "Rabat Co", "Fès Industries",
+    "Marrakech Ventures", "Mediterranean Enterprises", "Sahara Logistics",
+    "Rif Trading", "Agadir Co", "Tangier Holdings", "Oujda Industries",
+    "Meknès Ventures", "Tanger Med Co", "Al Omrane", "Banque Populaire Co",
+    "BMCE Holdings", "Attijari Ventures", "OCP Industries", "Royal Air Maroc Co"
+  ],
+  "suffixes": ["SARL", "SA", "SAS", "SARL AU", "Ste"],
+  "registration_pattern": "RC{digits:06d}"
+}

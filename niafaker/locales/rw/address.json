@@ -1,0 +1,20 @@
+{
+  "cities": [
+    "Kigali", "Butare", "Gisenyi", "Ruhengeri", "Gitarama", "Byumba", "Cyangugu",
+    "Kibuye", "Rwamagana", "Nyagatare", "Musanze", "Huye", "Muhanga", "Rubavu",
+    "Kayonza"
+  ],
+  "regions": [
+    "Kigali City", "Eastern Province", "Southern Province", "Western Province",
+    "Northern Province", "Kigali", "Gasabo", "Kicukiro", "Nyarugenge",
+    "Musanze", "Rubavu", "Nyagatare", "Gicumbi", "Rulindo", "Burera"
+  ],
+  "streets": [
+    "KN 4 Avenue", "KN 3 Avenue", "KG 7 Avenue", "KG 11 Avenue", "KN 2 Street",
+    "Remera Road", "Nyamirambo Road", "Kimironko Road", "Kicukiro Road",
+    "Kacyiru Road", "Nyarutarama Road", "Gikondo Road", "Gikondo Industrial",
+    "Kicukiro Centre", "Downtown Kigali"
+  ],
+  "street_patterns": ["{number} {street}", "{street}, {number}"],
+  "postal_codes": null
+}

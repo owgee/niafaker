@@ -1,0 +1,17 @@
+{
+  "cities": [
+    "Accra", "Kumasi", "Tamale", "Sekondi-Takoradi", "Koforidua", "Cape Coast",
+    "Sunyani", "Ho", "Bolgatanga", "Wa", "Techiman", "Tema", "Obuasi", "Nkawkaw", "Keta"
+  ],
+  "regions": [
+    "Greater Accra", "Ashanti", "Northern", "Western", "Eastern", "Central",
+    "Volta", "Upper East", "Upper West", "Bono", "Bono East", "Ahafo", "Oti", "Savannah", "North East"
+  ],
+  "streets": [
+    "Independence Avenue", "Oxford Street", "Castle Road", "High Street", "Ring Road",
+    "Liberation Road", "Kawukudi Road", "Dzorwulu Road", "Cantonments Road", "Labadi Road",
+    "Spintex Road", "Abelenkpe Road", "East Legon Road", "Adabraka Road", "Osu Oxford Street"
+  ],
+  "street_patterns": ["{number} {street}", "{street}, {number}"],
+  "postal_codes": null
+}

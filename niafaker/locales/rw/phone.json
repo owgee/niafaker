@@ -1,0 +1,8 @@
+{
+  "country_code": "250",
+  "subscriber_digits": 9,
+  "carriers": [
+    {"name": "MTN", "prefixes": ["78", "79"]},
+    {"name": "Airtel", "prefixes": ["72", "73"]}
+  ]
+}

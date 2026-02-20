@@ -1,0 +1,24 @@
+{
+  "male_first_names": [
+    "Abebe", "Haile", "Tesfaye", "Alemu", "Biruk", "Dawit", "Yonas", "Mekonnen",
+    "Gebre", "Solomon", "Getachew", "Asnake", "Tadesse", "Yohannes", "Bekele",
+    "Kassa", "Kebede", "Desta", "Ayele", "Abera", "Daniel", "Samuel", "Henok",
+    "Tewodros", "Mohammed", "Ahmed", "Ibrahim", "Abdul", "Hailu", "Assefa",
+    "Girma", "Workneh"
+  ],
+  "female_first_names": [
+    "Tigist", "Genet", "Almaz", "Mulu", "Bethlehem", "Frehiwot", "Senait",
+    "Aster", "Meseret", "Hana", "Addis", "Desta", "Selam", "Mahlet", "Bisrat",
+    "Tamirat", "Netsanet", "Hanna", "Tigist", "Abebech", "Zenebech", "Konjit",
+    "Tsehay", "Tsion", "Rahel", "Hanna", "Sara", "Marta", "Eden", "Lulit",
+    "Mekdes", "Sosna"
+  ],
+  "last_names": [
+    "Kebede", "Tesfaye", "Abebe", "Haile", "Alemu", "Tilahun", "Gebre",
+    "Solomon", "Tadesse", "Getachew", "Asnake", "Desta", "Workneh", "Girma",
+    "Bekele", "Mohammed", "Ahmed", "Ibrahim", "Hailu", "Assefa", "Dawit",
+    "Yonas", "Mekonnen", "Biruk", "Assefa", "Tewodros", "Yohannes", "Daniel",
+    "Samuel", "Henok", "Ayele", "Abera"
+  ],
+  "email_domains": ["gmail.com", "yahoo.com", "outlook.com", "hotmail.com"]
+}

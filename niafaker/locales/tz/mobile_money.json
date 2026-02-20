@@ -1,0 +1,23 @@
+{
+  "country_code": "255",
+  "subscriber_digits": 9,
+  "providers": [
+    {
+      "name": "M-Pesa",
+      "prefixes": ["74", "75", "76", "79"]
+    },
+    {
+      "name": "Tigo Pesa",
+      "prefixes": ["71", "65", "67", "77"]
+    },
+    {
+      "name": "Airtel Money",
+      "prefixes": ["78", "68", "69"]
+    },
+    {
+      "name": "Halopesa",
+      "prefixes": ["61", "62"]
+    }
+  ],
+  "tx_prefix": "MP"
+}

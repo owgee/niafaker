@@ -1,0 +1,18 @@
+{
+  "cities": [
+    "Kampala", "Entebbe", "Jinja", "Mbarara", "Gulu", "Mbale", "Fort Portal",
+    "Masaka", "Kasese", "Njeru", "Lira", "Kitgum", "Soroti", "Arua", "Kabale"
+  ],
+  "regions": [
+    "Central", "Eastern", "Northern", "Western", "Buganda", "Busoga",
+    "Ankole", "Teso", "Acholi", "Lango", "West Nile", "Kigezi", "Bunyoro", "Karamoja"
+  ],
+  "streets": [
+    "Kampala Road", "Jinja Road", "Entebbe Road", "Kololo Hill", "Nakasero Road",
+    "Buganda Road", "Parliament Avenue", "William Street", "Namirembe Road",
+    "Bombo Road", "Buwenge Street", "Market Street", "Station Road", "Church Road",
+    "Makerere Hill Road"
+  ],
+  "street_patterns": ["{number} {street}", "{street}, {number}"],
+  "postal_codes": null
+}

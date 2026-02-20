@@ -1,0 +1,11 @@
+{
+  "names": [
+    "Egyptian Premier", "Nile Holdings", "Cairo Trading", "Alexandria Co", "Delta Industries",
+    "Sphinx Ventures", "Pyramid Enterprises", "Pharaoh Logistics", "Red Sea Trading",
+    "Mediterranean Co", "Upper Egypt", "Lower Egypt", "Suez Canal Co", "Luxor Holdings",
+    "Aswan Industries", "Giza Ventures", "Heliopolis Trading", "Ramadan Co",
+    "El Masry Holdings", "Mena Ventures"
+  ],
+  "suffixes": ["S.A.E.", "LLC", "Ltd", "Co.", "Group", "Holding"],
+  "registration_pattern": "EG-{digits:06d}"
+}

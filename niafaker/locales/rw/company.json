@@ -1,0 +1,11 @@
+{
+  "names": [
+    "Rwanda Premier", "Kigali Holdings", "Land of a Thousand Hills", "Virunga Trading",
+    "Lake Kivu Co", "East African Ventures", "Rwanda Logistics", "Kinyarwanda Enterprises",
+    "Nyungwe Industries", "Akagera Trading", "Butare Holdings", "Musanze Ventures",
+    "Gisenyi Imports", "Capital City Co", "Rwanda Star", "Unity Holdings",
+    "Genocide Memorial Co", "Vision Ventures", "Urugwiro Enterprises", "Imbaraga Industries"
+  ],
+  "suffixes": ["Ltd", "SARL", "SA", "Co. Ltd", "Enterprises"],
+  "registration_pattern": "RW{digits:08d}"
+}

@@ -1,0 +1,9 @@
+{
+  "country_code": "250",
+  "subscriber_digits": 9,
+  "providers": [
+    {"name": "MTN MoMo Rwanda", "prefixes": ["78", "79"]},
+    {"name": "Airtel Money", "prefixes": ["72", "73"]}
+  ],
+  "tx_prefix": "RW"
+}

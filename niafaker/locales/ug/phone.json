@@ -1,0 +1,9 @@
+{
+  "country_code": "256",
+  "subscriber_digits": 9,
+  "carriers": [
+    {"name": "MTN", "prefixes": ["77", "78", "76"]},
+    {"name": "Airtel", "prefixes": ["70", "75", "74"]},
+    {"name": "Africell", "prefixes": ["79"]}
+  ]
+}

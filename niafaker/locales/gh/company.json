@@ -1,0 +1,11 @@
+{
+  "names": [
+    "Ashanti Gold", "Volta Trading", "Kumasi Enterprises", "Accra Logistics", "Ghana Premier",
+    "West Africa Industries", "Gold Coast Holdings", "Sunshine Ventures", "Atlantic Imports",
+    "Northern Star Co", "Central Supplies", "Eastern Heights", "Diamond Works", "Royal Ghana",
+    "Unity Holdings", "Heritage Trading", "Premier Ghana Co", "Ohene Ventures", "Nkrumah Enterprises",
+    "Akan Industries", "Tropical Holdings", "Coastal Trading"
+  ],
+  "suffixes": ["Ltd", "Limited", "PLC", "Co. Ltd", "Enterprises", "Ghana Ltd"],
+  "registration_pattern": "CS{digits:06d}"
+}

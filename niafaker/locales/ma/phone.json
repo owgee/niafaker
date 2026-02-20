@@ -1,0 +1,9 @@
+{
+  "country_code": "212",
+  "subscriber_digits": 9,
+  "carriers": [
+    {"name": "Maroc Telecom", "prefixes": ["61", "62", "63", "64"]},
+    {"name": "Orange", "prefixes": ["66", "67", "68"]},
+    {"name": "Inwi", "prefixes": ["65", "69"]}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "names": [
+    "Nile Trading", "Uganda Premier", "Lake Victoria Co", "Kampala Holdings", "Pearl of Africa",
+    "East African Ventures", "Source of Nile", "Buganda Industries", "Ankole Trading",
+    "Mountain Co", "Victoria Enterprises", "Uganda Logistics", "Great Lakes Imports",
+    "Equatorial Holdings", "Capital City Co", "Bunyoro Ventures", "Teso Supplies",
+    "Northern Star", "Western Highlands", "Central Uganda Co", "Karamoja Ventures"
+  ],
+  "suffixes": ["Ltd", "Limited", "Co. Ltd", "Enterprises", "Group"],
+  "registration_pattern": "UG{digits:06d}"
+}

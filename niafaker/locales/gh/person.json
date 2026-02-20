@@ -1,0 +1,21 @@
+{
+  "male_first_names": [
+    "Kwame", "Kofi", "Kojo", "Yaw", "Kwesi", "Kwabena", "Kwadwo", "Emmanuel", "Joseph", "Samuel",
+    "Daniel", "Michael", "Prince", "David", "Bernard", "Eric", "Stephen", "George", "Richard",
+    "Lawrence", "William", "Charles", "Paul", "John", "James", "Andrew", "Philip", "Thomas",
+    "Peter", "Isaac", "Solomon", "Benjamin", "Nathaniel"
+  ],
+  "female_first_names": [
+    "Akua", "Adwoa", "Abena", "Afia", "Akosua", "Amma", "Esi", "Efua", "Yaa", "Serwaa",
+    "Ama", "Aba", "Grace", "Mary", "Elizabeth", "Comfort", "Patience", "Mercy", "Faith",
+    "Joyce", "Vida", "Adjoa", "Nana", "Maame", "Abigail", "Cynthia", "Dorothy", "Esther",
+    "Gloria", "Helen", "Irene", "Juliana"
+  ],
+  "last_names": [
+    "Mensah", "Asante", "Owusu", "Adu", "Boateng", "Addo", "Yeboah", "Osei", "Opoku",
+    "Quarshie", "Nyarko", "Appiah", "Amoako", "Danso", "Sarpong", "Gyamfi", "Darko",
+    "Annan", "Tuffour", "Acquah", "Attoh", "Lamptey", "Ayensu", "Brown", "Mohammed",
+    "Agyeman", "Asare", "Kusi", "Asiedu", "Dadzie", "Frimpong", "Oduro"
+  ],
+  "email_domains": ["gmail.com", "yahoo.com", "outlook.com", "hotmail.com"]
+}

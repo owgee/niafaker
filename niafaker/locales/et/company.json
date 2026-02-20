@@ -1,0 +1,11 @@
+{
+  "names": [
+    "Ethiopian Premier", "Horn of Africa Trading", "Addis Holdings", "Nile Enterprises",
+    "Ethiopian Airlines Co", "Awash Industries", "Tekeze Ventures", "Abay Logistics",
+    "Dire Dawa Trading", "Gondar Holdings", "Bahir Dar Co", "Oromia Industries",
+    "Tigray Ventures", "Harar Trading", "Lucy Enterprises", "Axum Holdings",
+    "Lalibela Co", "Simien Industries", "Ethio Trading", "Abyssinia Ventures"
+  ],
+  "suffixes": ["PLC", "SC", "Share Company", "Pvt Ltd Co", "Trading"],
+  "registration_pattern": "ET/{digits:06d}"
+}

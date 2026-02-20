@@ -1,0 +1,18 @@
+{
+  "cities": [
+    "Addis Ababa", "Dire Dawa", "Mekelle", "Gondar", "Bahir Dar", "Hawassa",
+    "Adama", "Jimma", "Bishoftu", "Harar", "Shashamane", "Dessie", "Sodo",
+    "Arba Minch", "Debre Birhan"
+  ],
+  "regions": [
+    "Addis Ababa", "Dire Dawa", "Tigray", "Afar", "Amhara", "Oromia",
+    "Somali", "Benishangul-Gumuz", "SNNPR", "Gambela", "Harari"
+  ],
+  "streets": [
+    "Bole Road", "Mexico Square", "Churchill Avenue", "Kazanchis Road", "Piassa",
+    "Meskel Square", "CMC Road", "Bole Medhanialem", "Gotera", "Megenagna",
+    "Kirkos Road", "Lebu", "Sarbet", "Bole Atlas", "Kazanches"
+  ],
+  "street_patterns": ["{number} {street}", "{street}, {number}"],
+  "postal_codes": null
+}

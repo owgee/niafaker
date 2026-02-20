@@ -1,0 +1,10 @@
+{
+  "country_code": "20",
+  "subscriber_digits": 10,
+  "carriers": [
+    {"name": "Vodafone", "prefixes": ["10"]},
+    {"name": "Orange", "prefixes": ["12"]},
+    {"name": "Etisalat", "prefixes": ["11"]},
+    {"name": "WE", "prefixes": ["15"]}
+  ]
+}

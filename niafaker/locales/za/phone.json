@@ -1,0 +1,22 @@
+{
+  "country_code": "27",
+  "subscriber_digits": 9,
+  "carriers": [
+    {
+      "name": "Vodacom",
+      "prefixes": ["60", "61", "62", "63", "64", "66"]
+    },
+    {
+      "name": "MTN",
+      "prefixes": ["71", "73", "78", "83"]
+    },
+    {
+      "name": "Cell C",
+      "prefixes": ["74", "84"]
+    },
+    {
+      "name": "Telkom",
+      "prefixes": ["81", "82"]
+    }
+  ]
+}

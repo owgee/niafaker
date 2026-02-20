@@ -1,0 +1,10 @@
+{
+  "country_code": "233",
+  "subscriber_digits": 9,
+  "providers": [
+    {"name": "MTN MoMo", "prefixes": ["24", "25", "53", "54", "55", "59"]},
+    {"name": "Vodafone Cash", "prefixes": ["20", "50"]},
+    {"name": "AirtelTigo Money", "prefixes": ["26", "27", "56", "57"]}
+  ],
+  "tx_prefix": "MM"
+}

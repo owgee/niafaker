@@ -1,0 +1,24 @@
+{
+  "male_first_names": [
+    "Youssef", "Omar", "Rachid", "Karim", "Mehdi", "Amine", "Hassan", "Khalid",
+    "Tarik", "Abdellah", "Mohamed", "Ahmed", "Said", "Mustapha", "Hicham",
+    "Ali", "Brahim", "Hamza", "Driss", "Jamal", "Nabil", "Fouad", "Yassine",
+    "Adil", "Zakaria", "Walid", "Anas", "Samir", "Idriss", "Marouane", "Sofiane"
+  ],
+  "female_first_names": [
+    "Fatima", "Salma", "Aisha", "Malika", "Nadia", "Samira", "Khadija",
+    "Zahra", "Leila", "Amina", "Imane", "Zineb", "Naima", "Latifa", "Fatiha",
+    "Bouchra", "Amal", "Meryem", "Souad", "Rachida", "Soukaina", "Hind",
+    "Inssaf", "Sara", "Maryam", "Yasmin", "Houda", "Karima", "Habiba",
+    "Chaimae", "Ibtissam", "Nadia"
+  ],
+  "last_names": [
+    "El Alaoui", "Benjelloun", "Tazi", "Bennani", "Alaoui", "Idrissi", "Chraibi",
+    "Bensouda", "Ouabi", "El Amrani", "Bouhaddi", "Benali", "Fassi", "Boujemaa",
+    "El Fassi", "Tazi", "Mansouri", "Kettani", "Tounsi", "Boukouss", "Bousseta",
+    "Benkirane", "Bouhlal", "El Ouazzani", "Bouzoubaa", "Benchekroun",
+    "El Khatib", "Ben Abdelkader", "El Khamlichi", "Boufous", "El Malki",
+    "Tahiri"
+  ],
+  "email_domains": ["gmail.com", "yahoo.com", "outlook.com", "hotmail.com"]
+}

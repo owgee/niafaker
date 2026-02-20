@@ -1,0 +1,10 @@
+{
+  "country_code": "20",
+  "subscriber_digits": 10,
+  "providers": [
+    {"name": "Vodafone Cash", "prefixes": ["10"]},
+    {"name": "Orange Money", "prefixes": ["12"]},
+    {"name": "WE Pay", "prefixes": ["15"]}
+  ],
+  "tx_prefix": "EG"
+}
