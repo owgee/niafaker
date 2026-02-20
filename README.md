@@ -39,12 +39,12 @@ NiaFaker.locales()  # {'tz': 'Tanzania', 'ke': 'Kenya', ...}
 ## What You Can Generate
 
 **Person** — `name()`, `first_name()`, `last_name()`, `email()`
-**Phone** — `phone()`, `phone(carrier="Safaricom")`, `carrier()`
+**Phone** — `phone()`, `phone(carrier="Safaricom")`
 **Address** — `city()`, `region()`, `address()`, `country()`
-**Company** — `company()`, `company_type()`, `registration_number()`
-**Mobile Money** — `mobile_money()`, `mobile_money_provider()`, `transaction_id()`
-**National ID** — `national_id()`, `national_id_name()`
-**Currency** — `currency_code()`, `currency_symbol()`, `amount()`
+**Company** — `company()`, `registration_number()`
+**Mobile Money** — `mobile_money()`, `transaction_id()`
+**National ID** — `national_id()`
+**Currency** — `amount()`
 
 ## Contributing
 

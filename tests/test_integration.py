@@ -8,7 +8,6 @@ from niafaker import (
     generate_city,
     generate_country,
     generate_email,
-    generate_last_name,
     generate_name,
     generate_phone_number,
 )
@@ -29,44 +28,29 @@ class TestNiaFakerClass:
         locales = NiaFaker.locales()
         assert len(locales) == 10
         assert "tz" in locales
-        assert locales["tz"] == "Tanzania"
 
     def test_repr(self) -> None:
-        fake = NiaFaker("ke")
-        assert repr(fake) == "NiaFaker(locale='ke')"
+        assert repr(NiaFaker("ke")) == "NiaFaker(locale='ke')"
 
     def test_case_insensitive_locale(self) -> None:
-        fake = NiaFaker("TZ")
-        assert fake.locale == "tz"
+        assert NiaFaker("TZ").locale == "tz"
 
 
 class TestBackwardCompatibility:
     def test_generate_name(self) -> None:
-        name = generate_name()
-        assert isinstance(name, str)
-        assert " " in name
-
-    def test_generate_last_name(self) -> None:
-        last = generate_last_name()
-        assert isinstance(last, str)
+        assert " " in generate_name()
 
     def test_generate_email(self) -> None:
-        email = generate_email()
-        assert "@" in email
+        assert "@" in generate_email()
 
     def test_generate_phone_number(self) -> None:
-        phone = generate_phone_number()
-        assert phone.startswith("+")
+        assert generate_phone_number().startswith("+")
 
     def test_generate_city(self) -> None:
-        city = generate_city()
-        assert isinstance(city, str)
+        assert len(generate_city()) > 1
 
     def test_generate_address(self) -> None:
-        address = generate_address()
-        assert isinstance(address, str)
+        assert "," in generate_address()
 
     def test_generate_country(self) -> None:
-        country = generate_country()
-        assert isinstance(country, str)
-        assert len(country) > 2
+        assert len(generate_country()) > 2

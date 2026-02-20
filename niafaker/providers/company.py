@@ -17,9 +17,6 @@ class CompanyProvider(BaseProvider):
         suffix = random.choice(self._data["suffixes"])
         return f"{name} {suffix}"
 
-    def company_type(self) -> str:
-        return random.choice(self._data["suffixes"])
-
     def registration_number(self) -> str:
         pattern = self._data.get("registration_pattern", "REG-{digits:06d}")
         digits = random.randint(0, 999999)

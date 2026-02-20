@@ -7,18 +7,19 @@ import random
 from niafaker.providers import BaseProvider
 
 
+def generate_number(country_code: str, prefixes: list[str], subscriber_digits: int) -> str:
+    """Build a phone number from country code, prefix pool, and digit count."""
+    prefix = random.choice(prefixes)
+    remaining = subscriber_digits - len(prefix)
+    suffix = "".join(str(random.randint(0, 9)) for _ in range(remaining))
+    return f"+{country_code}{prefix}{suffix}"
+
+
 class PhoneProvider(BaseProvider):
 
     data_file = "phone.json"
 
     def phone_number(self, carrier: str | None = None) -> str:
-        """Generate a phone number with a real carrier prefix.
-
-        Args:
-            carrier: Filter by carrier name (e.g. "Safaricom", "MTN").
-                     If None, picks a random carrier.
-        """
-        country_code = self._data["country_code"]
         carriers = self._data["carriers"]
 
         if carrier:
@@ -32,10 +33,8 @@ class PhoneProvider(BaseProvider):
         else:
             carrier_data = random.choice(carriers)
 
-        prefix = random.choice(carrier_data["prefixes"])
-        remaining = self._data["subscriber_digits"] - len(prefix)
-        suffix = "".join(str(random.randint(0, 9)) for _ in range(remaining))
-        return f"+{country_code}{prefix}{suffix}"
-
-    def carrier_name(self) -> str:
-        return random.choice(self._data["carriers"])["name"]
+        return generate_number(
+            self._data["country_code"],
+            carrier_data["prefixes"],
+            self._data["subscriber_digits"],
+        )

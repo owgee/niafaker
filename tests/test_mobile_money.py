@@ -17,12 +17,6 @@ class TestMobileMoney:
         assert account["number"].startswith("+")
         assert account["number"][1:].isdigit()
 
-    def test_provider_name(self, locale: str) -> None:
-        fake = NiaFaker(locale)
-        provider = fake.mobile_money_provider()
-        assert isinstance(provider, str)
-        assert len(provider) > 1
-
     def test_transaction_id(self, locale: str) -> None:
         fake = NiaFaker(locale)
         tx = fake.transaction_id()

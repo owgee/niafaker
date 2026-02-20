@@ -21,12 +21,6 @@ class TestPhone:
         phone = fake.phone()
         assert len(phone) >= 10
 
-    def test_carrier_name(self, locale: str) -> None:
-        fake = NiaFaker(locale)
-        carrier = fake.carrier()
-        assert isinstance(carrier, str)
-        assert len(carrier) > 1
-
     def test_invalid_carrier_raises(self, locale: str) -> None:
         fake = NiaFaker(locale)
         with pytest.raises(ValueError, match="Unknown carrier"):
