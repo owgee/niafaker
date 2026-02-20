@@ -17,8 +17,7 @@ from niafaker.providers import SUPPORTED_LOCALES
 class TestNiaFakerClass:
     def test_all_locales_instantiate(self) -> None:
         for locale in SUPPORTED_LOCALES:
-            fake = NiaFaker(locale)
-            assert fake.locale == locale
+            assert NiaFaker(locale).locale == locale
 
     def test_invalid_locale_raises(self) -> None:
         with pytest.raises(ValueError, match="Unsupported locale"):
@@ -34,6 +33,11 @@ class TestNiaFakerClass:
 
     def test_case_insensitive_locale(self) -> None:
         assert NiaFaker("TZ").locale == "tz"
+
+    def test_seed_produces_reproducible_output(self) -> None:
+        a = NiaFaker("tz", seed=42).name()
+        b = NiaFaker("tz", seed=42).name()
+        assert a == b
 
 
 class TestBackwardCompatibility:

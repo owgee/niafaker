@@ -20,12 +20,20 @@ from niafaker import NiaFaker
 fake = NiaFaker("tz")  # Tanzania
 
 fake.name()            # "Baraka Kimaro"
+fake.name(gender="f")  # "Amina Mwakasege"
 fake.phone()           # "+255754832109"
 fake.mobile_money()    # {"provider": "M-Pesa", "number": "+255754832109"}
 fake.national_id()     # "19901234-12345-00001-01"
 fake.company()         # "Bakhresa Holdings"
 fake.amount()          # "TSh 425,000"
 fake.address()         # "1234 Samora Avenue, Dodoma, Dodoma"
+```
+
+For reproducible output (useful in tests):
+
+```python
+fake = NiaFaker("ke", seed=42)
+fake.name()  # same result every time
 ```
 
 ## Supported Countries

@@ -30,10 +30,13 @@ class NiaFaker:
 
     Args:
         locale: Two-letter country code (e.g. "tz", "ke", "ng").
+        seed: Optional seed for reproducible output.
     """
 
-    def __init__(self, locale: str) -> None:
+    def __init__(self, locale: str, *, seed: int | None = None) -> None:
         self.locale = locale.lower()
+        if seed is not None:
+            random.seed(seed)
         self._person = PersonProvider(self.locale)
         self._phone = PhoneProvider(self.locale)
         self._address = AddressProvider(self.locale)
@@ -97,31 +100,37 @@ class NiaFaker:
 
 
 # ── Backward-compatible convenience functions ──
+# These use a shared instance per locale to avoid reloading JSON on every call.
+
+_cache: dict[str, NiaFaker] = {}
 
 
-def _random_faker() -> NiaFaker:
-    return NiaFaker(random.choice(SUPPORTED_LOCALES))
+def _get_random_faker() -> NiaFaker:
+    locale = random.choice(SUPPORTED_LOCALES)
+    if locale not in _cache:
+        _cache[locale] = NiaFaker(locale)
+    return _cache[locale]
 
 
 def generate_name(gender: str | None = None) -> str:
-    return _random_faker().name(gender)
+    return _get_random_faker().name(gender)
 
 
 def generate_email() -> str:
-    return _random_faker().email()
+    return _get_random_faker().email()
 
 
 def generate_phone_number() -> str:
-    return _random_faker().phone()
+    return _get_random_faker().phone()
 
 
 def generate_city() -> str:
-    return _random_faker().city()
+    return _get_random_faker().city()
 
 
 def generate_address() -> str:
-    return _random_faker().address()
+    return _get_random_faker().address()
 
 
 def generate_country() -> str:
-    return _random_faker().country()
+    return _get_random_faker().country()

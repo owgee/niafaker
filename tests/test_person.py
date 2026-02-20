@@ -1,38 +1,43 @@
 """Tests for PersonProvider."""
 
+import pytest
+
 from niafaker import NiaFaker
 
 
 class TestPerson:
-    def test_name_returns_string(self, locale: str) -> None:
+    def test_name_returns_full_name(self, locale: str) -> None:
         fake = NiaFaker(locale)
-        name = fake.name()
-        assert isinstance(name, str)
-        assert " " in name
+        assert " " in fake.name()
 
     def test_name_male(self, locale: str) -> None:
         fake = NiaFaker(locale)
-        name = fake.name(gender="male")
-        assert isinstance(name, str)
-        assert len(name) > 2
+        assert len(fake.name(gender="male")) > 2
 
     def test_name_female(self, locale: str) -> None:
         fake = NiaFaker(locale)
-        name = fake.name(gender="female")
-        assert isinstance(name, str)
-        assert len(name) > 2
+        assert len(fake.name(gender="female")) > 2
 
-    def test_first_name(self, locale: str) -> None:
+    def test_name_shorthand_m(self, locale: str) -> None:
         fake = NiaFaker(locale)
-        first = fake.first_name()
-        assert isinstance(first, str)
-        assert " " not in first
+        assert len(fake.name(gender="m")) > 2
+
+    def test_name_shorthand_f(self, locale: str) -> None:
+        fake = NiaFaker(locale)
+        assert len(fake.name(gender="f")) > 2
+
+    def test_name_invalid_gender_raises(self) -> None:
+        fake = NiaFaker("tz")
+        with pytest.raises(ValueError, match="Unknown gender"):
+            fake.name(gender="X")
+
+    def test_first_name_no_space(self, locale: str) -> None:
+        fake = NiaFaker(locale)
+        assert " " not in fake.first_name()
 
     def test_last_name(self, locale: str) -> None:
         fake = NiaFaker(locale)
-        last = fake.last_name()
-        assert isinstance(last, str)
-        assert len(last) > 1
+        assert len(fake.last_name()) > 1
 
     def test_email_format(self, locale: str) -> None:
         fake = NiaFaker(locale)
@@ -42,5 +47,4 @@ class TestPerson:
 
     def test_email_custom_domain(self, locale: str) -> None:
         fake = NiaFaker(locale)
-        email = fake.email(domain="test.org")
-        assert email.endswith("@test.org")
+        assert fake.email(domain="test.org").endswith("@test.org")

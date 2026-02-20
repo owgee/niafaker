@@ -6,18 +6,25 @@ import random
 
 from niafaker.providers import BaseProvider
 
+_MALE = {"male", "m"}
+_FEMALE = {"female", "f"}
+
 
 class PersonProvider(BaseProvider):
 
     data_file = "person.json"
 
     def first_name(self, gender: str | None = None) -> str:
-        if gender == "male":
+        if gender is None:
+            pool = self._data["male_first_names"] + self._data["female_first_names"]
+        elif gender.lower() in _MALE:
             pool = self._data["male_first_names"]
-        elif gender == "female":
+        elif gender.lower() in _FEMALE:
             pool = self._data["female_first_names"]
         else:
-            pool = self._data["male_first_names"] + self._data["female_first_names"]
+            raise ValueError(
+                f"Unknown gender '{gender}'. Use 'male'/'m' or 'female'/'f'."
+            )
         return random.choice(pool)
 
     def last_name(self) -> str:
